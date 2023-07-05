@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+
+}
+
+header{
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #dddd;
+
+}
+.admin-content{
+    padding-top: 50px;
+    display: flex;
+
+}
+.admin-content-left{
+    background-color: aquamarine;
+    width: 20%;
+    height: 100vh;
+    padding: 30px 0 0 12px;
+
+}
+.admin-content-left >ul>li>a{
+    font-weight: bold ;
+}
+
+.admin-content-left ul li{
+    margin: 6px 0;
+}
+
+.admin-content-left ul ul{
+    margin-left: 20px;
+}
+.admin-content-right{
+    width: 80%;
+    padding: 30px 0 0 12px;
+   
+}
+.admin-content-right-cartegory-add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+
+}
+.admin-content-right-cartegory-add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color:brown;
+    color: antiquewhite;
+    transition: all 0.3s ease;
+
+}
+.admin-content-right-cartegory-add button:hover{
+    background-color: transparent;
+    border: 1px solid brownz ;
+    color: brown;
+}
+
+/* .admin-content-right-cartegory-list table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.admin-content-right-cartegory-list table tr th,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+} */
+
+.slidebar{
+    width: 200px;
+}
+.content{
+   width: calc(100% -200px);
+}
+.row.flex-nowrap {
+    width: 100% !important;
+    
+}
+
+span.ms-1.d-none.d-sm-inline {
+    color: #fff;
+}
+span.fs-5.d-none.d-sm-inline {
+    color: #fff;
+}
+.product-item.bg-light.mb-4.itemproduct {
+    width: 25%;
+}
